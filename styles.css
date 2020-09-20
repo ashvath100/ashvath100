@@ -1,0 +1,101 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #454545;
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+#profile {
+    position: relative;
+    text-align: center;
+    top: 15vh;
+}
+
+#mayank-img{
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.social {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#nav {
+    text-align: center;
+}
+.nav-item {
+    font-size: 0.9em;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+a {
+    color: #07a;
+}
+
+a:visited {
+    color: #951352
+}
+
+.navlink, .navlink:visited, .blog-item a {
+    color: #454545;
+}
+
+.blog-item a:hover{
+    color: black;
+}
+
+.blog-item a {
+    text-decoration: none;
+    color: #454545;
+}
+
+.blog-item {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #989898;
+}
+
+.project-tag-link {
+    color: #07a !important;
+    text-decoration: underline !important;
+}
+
+.project-tag-link:visited {
+    color: #951352;
+}
+
+.social {
+    color: #454545;
+}
+
+#profile a{
+    text-decoration: none;
+}
+
+#profile a:visited{
+    text-decoration: none;
+    color: #454545;
+}

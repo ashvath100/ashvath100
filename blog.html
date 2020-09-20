@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <title>Mayank Shah | Blog</title>
+</head>
+<body>
+    <div id="blog">
+        <span style="margin: 0;" class="nav-item">
+                <span style="font-size: 1.2em">&#8617;</span>
+                <strong><a href="/" class="navlink"> BACK</a></strong>
+            </span>
+            <h1>My Blog</h1>
+            <div id="blog-list"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $("#blog").ready(function(){
+                var req = new XMLHttpRequest();
+                req.onreadystatechange = function(){
+                    if (req.readyState == 4 && req.status == 200) {
+                        var blogs = JSON.parse(this.responseText).blog;
+                        var blog_list = document.getElementById("blog-list");
+                        blogs.forEach(function(item) {
+                            blog_list.innerHTML += `
+                            <div class="blog-item">
+                                <h2><a href="${item.url}">${item.title}</a></h2>
+                                <p>${item.description}</p>
+                                <span style="font-size: 0.8em"><em>${item.date}</em> - <em>${item.readTime} read</em></span>
+                            </div>
+                            `
+                        }) 
+                    }
+                }
+                req.open("GET","/static/user_data.json");
+                req.send();
+        })
+    </script>
+</body>
+</html>
