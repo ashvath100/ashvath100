@@ -1,39 +1,18 @@
 {
     "blog": [
         {
-            "title": "Gooogle Summer of Code with Linkerd",
+            "title": "GSoC 2020: Walking Robot Support For Ardupilot Part 1",
             "description": "A brief write-up about the work I did as a part of GSoC '20 with Linkerd.",
             "date": "Sep 09, 2020",
             "readTime": "4 min",
             "url": "https://medium.com/@mayankshah1607/gsoc-20-with-linkerd-2d821328ab1a"
         },
         {
-            "title": "An Introduction to Docker for Novices",
+            "title": "GSoC 2020: Walking Robot Support For Ardupilot Part 2",
             "description": "A short and beginner friendly article about docker and containers explaining the basic concepts with a very simple practical example",
             "date": "Jun 24, 2019",
             "readTime" : "6 min",
             "url": "https://medium.com/@mayankshah_85820/docker-security-backdooring-images-with-dockerscan-ace5ff65bd39"
-        },
-        {
-            "title": "Docker Security: Backdooring Images",
-            "description": "A very simple tutorial explaining how we can exploit Docker images by backdooring them using Dockerscan",
-            "date": "Jun 17, 2019",
-            "readTime" : "4 min",
-            "url": "https://medium.com/@mayankshah_85820/docker-security-backdooring-images-with-dockerscan-ace5ff65bd39"
-        },
-        {
-            "title": "Feature Selection for Machine Learning",
-            "description": "A tutorial on how we can use Backward elemination to optimize Machine learning algorithms.",
-            "date": "Dec 30, 2018",
-            "readTime" : "7 min",
-            "url": "https://medium.com/@mayankshah_85820/machine-learning-feature-selection-with-backward-elimination-955894654026"
-        },
-        {
-            "title": "Boilerplate code generation for Node.js",
-            "description": "A article demonstrating an open source npm module I developed during my free time - NodeBoiler",
-            "date": "May 13, 2019",
-            "readTime" : "3 min",
-            "url": "https://dev.to/mayankshah1607/generating-boiler-plate-code-for-nodejs-rest-apis-fpb"
         }
     ],
     "projects": [
