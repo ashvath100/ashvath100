@@ -20,7 +20,36 @@
             "title": "Simulation Federated Learning with Docker and gRPC",
             "description": "A simulation of Federated learning using Docker and gRPC. Developed for CSE4001 - Parallel and Distributed Computing course at VIT Vellore.",
             "url": "#"
-            // "video": src="https://www.youtube.com/embed/07C-O9GdTkY"
+        },
+        {
+            "title": "Chatbot for 'Evento'",
+            "description": "A Deep Learing based 'Question-Answering'chatbot system built for 'Evento' - an event organizing platform developed by the students at <a class=\"project-tag-link\" href=\"https://ieeevit.com\">@IEEE VIT Vellore</a>.",
+            "url": "https://www.youtube.com/watch?v=07C-O9GdTkY&ab_channel=AshvathS"
+        },
+        {
+            "title": "Deep Learning for Music Composition",
+            "description": "A web application that uses Deep Learning in the backend to generate song lyrics like Maroon 5.",
+            "url": "https://github.com/mayankshah1607/Deep-Learning-Lyrics-Generator"
+        },
+        {
+            "title": "Enigma Microservices",
+            "description": "Backend microservices developed for <a class=\"project-tag-link\" href=\"https://enigma.ieeevit.com\">@Enigma</a>",
+            "url": "https://github.com/mayankshah1607/Enigma-Microservices"
+        },
+        {
+            "title": "Named-Entity Recognition",
+            "description": "A NER model trained from scratch on a Bi-LSTM Architecture (using Keras) on a Kaggle dataset.",
+            "url": "https://github.com/mayankshah1607/Named-Entity-recognition-LSTM"
+        },
+        {
+            "title": "Node Boiler",
+            "description": "A simple and flexible plug-and-play CLI tool that can automate boilplate code generation for your next RESTful API built with NodeJS.",
+            "url": "https://github.com/mayankshah1607/node-boiler"
+        },
+        {
+            "title": "Predicting Product ratings",
+            "description": "Implementation of sentiment analysis on amazon product reviews to predict product ratings.",
+            "url": "https://github.com/mayankshah1607/Product-Ratings-Prediction"
         }
     ]
 }
