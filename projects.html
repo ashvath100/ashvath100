@@ -17,29 +17,7 @@
             </span>
             <h1>My Projects</h1>
             <h3 class="title">Tnet</h3>
-            <div id="projects-list"></div>
         </div>
     </div>
-    <script type="text/javascript">
-        $("#projects").ready(function(){
-                var req = new XMLHttpRequest();
-                req.onreadystatechange = function(){
-                    if (req.readyState == 4 && req.status == 200) {
-                        var blogs = JSON.parse(this.responseText).projects;
-                        var blog_list = document.getElementById("projects-list");
-                        blogs.forEach(function(item) {
-                            blog_list.innerHTML += `
-                            <div class="blog-item">
-                                <h2><a target="_blank" href="${item.url}">${item.title}</a></h2>
-                                <p>${item.description}</p>
-                            </div>
-                            `
-                        }) 
-                    }
-                }
-                req.open("GET","/static/user_data.json");
-                req.send();
-        })
-    </script>
 </body>
 </html>
