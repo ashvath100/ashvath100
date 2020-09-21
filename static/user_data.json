@@ -19,7 +19,7 @@
         {
             "title": "Simulation Federated Learning with Docker and gRPC",
             "description": "A simulation of Federated learning using Docker and gRPC. Developed for CSE4001 - Parallel and Distributed Computing course at VIT Vellore.",
-            "url": "#",
+            "url": "#"
             // "video": src="https://www.youtube.com/embed/07C-O9GdTkY"
         }
     ]
