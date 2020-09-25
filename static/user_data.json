@@ -2,54 +2,15 @@
     "blog": [
         {
             "title": "GSoC 2020: Walking Robot Support For Ardupilot Part 1",
-            "description": "A brief write-up about the work I did as a part of GSoC '20 with Linkerd.",
-            "date": "Sep 09, 2020",
-            "readTime": "4 min",
-            "url": "https://medium.com/@mayankshah1607/gsoc-20-with-linkerd-2d821328ab1a"
+            "date": "May 26, 2020",
+            "readTime": "6 min",
+            "url": "https://discuss.ardupilot.org/t/gsoc-2020-walking-robot-support-for-ardupilot/57080"
         },
         {
             "title": "GSoC 2020: Walking Robot Support For Ardupilot Part 2",
-            "description": "A short and beginner friendly article about docker and containers explaining the basic concepts with a very simple practical example",
-            "date": "Jun 24, 2019",
+            "date": "Aug 31, 2019",
             "readTime" : "6 min",
-            "url": "https://medium.com/@mayankshah_85820/docker-security-backdooring-images-with-dockerscan-ace5ff65bd39"
-        }
-    ],
-    "projects": [
-        {
-            "title": "Simulation Federated Learning with Docker and gRPC",
-            "description": "A simulation of Federated learning using Docker and gRPC. Developed for CSE4001 - Parallel and Distributed Computing course at VIT Vellore.",
-            "url": "#"
-        },
-        {
-            "title": "Chatbot for 'Evento'",
-            "description": "A Deep Learing based 'Question-Answering'chatbot system built for 'Evento' - an event organizing platform developed by the students at <a class=\"project-tag-link\" href=\"https://ieeevit.com\">@IEEE VIT Vellore</a>.",
-            "url": "https://www.youtube.com/watch?v=07C-O9GdTkY&ab_channel=AshvathS"
-        },
-        {
-            "title": "Deep Learning for Music Composition",
-            "description": "A web application that uses Deep Learning in the backend to generate song lyrics like Maroon 5.",
-            "url": "https://github.com/mayankshah1607/Deep-Learning-Lyrics-Generator"
-        },
-        {
-            "title": "Enigma Microservices",
-            "description": "Backend microservices developed for <a class=\"project-tag-link\" href=\"https://enigma.ieeevit.com\">@Enigma</a>",
-            "url": "https://github.com/mayankshah1607/Enigma-Microservices"
-        },
-        {
-            "title": "Named-Entity Recognition",
-            "description": "A NER model trained from scratch on a Bi-LSTM Architecture (using Keras) on a Kaggle dataset.",
-            "url": "https://github.com/mayankshah1607/Named-Entity-recognition-LSTM"
-        },
-        {
-            "title": "Node Boiler",
-            "description": "A simple and flexible plug-and-play CLI tool that can automate boilplate code generation for your next RESTful API built with NodeJS.",
-            "url": "https://github.com/mayankshah1607/node-boiler"
-        },
-        {
-            "title": "Predicting Product ratings",
-            "description": "Implementation of sentiment analysis on amazon product reviews to predict product ratings.",
-            "url": "https://github.com/mayankshah1607/Product-Ratings-Prediction"
+            "url": "https://discuss.ardupilot.org/t/gsoc-2020-walking-robot-support-for-ardupilot-conclusion/61112"
         }
     ]
 }
